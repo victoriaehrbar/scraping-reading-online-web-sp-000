@@ -11,6 +11,6 @@ doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")
 courses = doc.css(".title-oE5vT4")
 
 courses.each do |course|
-binding.pry
+# binding.pry
   puts course.text.strip
 end
